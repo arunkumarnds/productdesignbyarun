@@ -35,8 +35,11 @@ body {
 	margin: 0;
 	padding: 0;
 	text-align: left;
-	background: linear-gradient(var(--gray-gradient)) no-repeat;
-	background-size: 100% 600px;
+	/* Custom background image */
+	background: linear-gradient(var(--gray-gradient)) no-repeat, url('/assets/images/background1.jpg') center/cover fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	color: rgb(var(--gray-dark));
