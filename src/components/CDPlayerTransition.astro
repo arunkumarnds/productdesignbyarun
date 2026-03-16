@@ -1,0 +1,12 @@
+---
+const { project } = Astro.props;
+---
+<div class="cd-player-transition">
+  <div class="cd-player">
+    <span>Now Playing</span>
+    <span>{project.title}</span>
+  </div>
+</div>
+<!--
+Handles transition animation to project detail.
+-->

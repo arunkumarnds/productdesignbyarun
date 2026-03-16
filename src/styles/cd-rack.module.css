@@ -1,0 +1,9 @@
+/* CD rack diagonal stack styling */
+.cd-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  position: relative;
+  margin-top: 4rem;
+}

@@ -1,0 +1,23 @@
+---
+const { project } = Astro.props;
+---
+<article class="project-card">
+  <header>
+    <h2>{project.title}</h2>
+    <span>{project.year} • {project.category}</span>
+  </header>
+  <section>
+    <p>{project.shortDescription}</p>
+    <ul>
+      <li>Role: {project.role}</li>
+      <li>Tools: {project.tools.join(', ')}</li>
+      <li>Links: {project.links.map(link => <a href={link.url}>{link.label}</a>)}</li>
+    </ul>
+  </section>
+  <div class="project-images">
+    {project.images.map(img => <img src={img} alt={project.title} loading="lazy" />)}
+  </div>
+</article>
+<!--
+ProjectCard used in project detail pages for structured content.
+-->

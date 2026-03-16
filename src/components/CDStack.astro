@@ -1,0 +1,12 @@
+---
+import CDItem from './CDItem.astro';
+import { projects } from '../content/projectsData';
+---
+<div class="cd-stack">
+  {projects.map((project, idx) => (
+    <CDItem project={project} index={idx} />
+  ))}
+</div>
+<!--
+CDStack arranges CDItem components diagonally.
+-->

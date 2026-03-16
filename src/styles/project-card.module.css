@@ -1,0 +1,23 @@
+/* Project card styling */
+.project-card {
+  background: #222;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+  padding: 2rem;
+  margin: 2rem 0;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+.project-card header {
+  margin-bottom: 1rem;
+}
+.project-card h2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2rem;
+}
+.project-images img {
+  width: 100%;
+  max-width: 480px;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
