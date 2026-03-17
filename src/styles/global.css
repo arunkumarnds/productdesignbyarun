@@ -18,14 +18,14 @@
 }
 @font-face {
 	font-family: "Atkinson";
-	src: url("/fonts/atkinson-regular.woff") format("woff");
+	src: url("/productdesignbyarun/fonts/atkinson-regular.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
 	font-family: "Atkinson";
-	src: url("/fonts/atkinson-bold.woff") format("woff");
+	src: url("/productdesignbyarun/fonts/atkinson-bold.woff") format("woff");
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
@@ -36,7 +36,7 @@ body {
 	padding: 0;
 	text-align: left;
 	/* Custom background image */
-	background: linear-gradient(var(--gray-gradient)) no-repeat, url('/assets/images/background1.jpg') center/cover fixed;
+	background: linear-gradient(var(--gray-gradient)) no-repeat, url('/productdesignbyarun/assets/images/background1.jpg') center/cover fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;

@@ -14,9 +14,7 @@ const { project } = Astro.props;
       <li>Links: {project.links.map(link => <a href={link.url}>{link.label}</a>)}</li>
     </ul>
   </section>
-  <div class="project-images">
-    {project.images.map(img => <img src={img} alt={project.title} loading="lazy" />)}
-  </div>
+  {/* Removed project images as requested */}
 </article>
 <!--
 ProjectCard used in project detail pages for structured content.

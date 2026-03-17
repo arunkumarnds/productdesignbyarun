@@ -1,3 +1,5 @@
+import blogPlaceholder1 from '../assets/blog-placeholder-1.jpg';
+
 export const projects = [
   {
     slug: 'retro-cd-player',
@@ -8,8 +10,8 @@ export const projects = [
     fullDescription: 'A modern web-based CD player inspired by retro-futuristic design, featuring tactile interactions and smooth transitions.',
     role: 'Designer & Developer',
     tools: ['Astro', 'TypeScript', 'CSS'],
-    images: ['/assets/images/placeholder1.jpg'],
-    cover: '/assets/images/placeholder1.jpg',
+    images: [blogPlaceholder1],
+    cover: blogPlaceholder1,
     links: [{ label: 'Live Demo', url: '#' }, { label: 'GitHub', url: '#' }],
   },
   {
@@ -21,8 +23,8 @@ export const projects = [
     fullDescription: 'A portfolio project showcasing a digital library with a physical media metaphor, using Astro and CSS for depth and interaction.',
     role: 'Lead Designer',
     tools: ['Astro', 'CSS Modules'],
-    images: ['/assets/images/placeholder2.jpg'],
-    cover: '/assets/images/placeholder2.jpg',
+    images: [blogPlaceholder1],
+    cover: blogPlaceholder1,
     links: [{ label: 'Live Demo', url: '#' }, { label: 'GitHub', url: '#' }],
   },
   {
@@ -34,8 +36,8 @@ export const projects = [
     fullDescription: 'A scalable design system with reusable components, accessible patterns, and editorial typography.',
     role: 'System Architect',
     tools: ['Astro', 'TypeScript', 'Figma'],
-    images: ['/assets/images/placeholder3.jpg'],
-    cover: '/assets/images/placeholder3.jpg',
+    images: [blogPlaceholder1],
+    cover: blogPlaceholder1,
     links: [{ label: 'Live Demo', url: '#' }, { label: 'GitHub', url: '#' }],
   },
   {
@@ -47,8 +49,8 @@ export const projects = [
     fullDescription: 'A portfolio site with detailed case studies, interactive visuals, and a tactile CD rack homepage.',
     role: 'Designer',
     tools: ['Astro', 'CSS', 'Motion One'],
-    images: ['/assets/images/placeholder4.jpg'],
-    cover: '/assets/images/placeholder4.jpg',
+    images: [blogPlaceholder1],
+    cover: blogPlaceholder1,
     links: [{ label: 'Live Demo', url: '#' }, { label: 'GitHub', url: '#' }],
   },
 ];

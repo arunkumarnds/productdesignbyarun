@@ -3,7 +3,7 @@ const { project, index } = Astro.props;
 ---
 <div class="cd-item" tabindex="0" aria-label={project.title}>
   <div class="cd-visual">
-    <img src={project.cover} alt={project.title} loading="lazy" />
+    {/* Removed cover image as requested */}
     <div class="cd-label">
       <span>{project.title}</span>
       <span>{project.year}</span>
